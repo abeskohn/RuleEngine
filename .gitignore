@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────
+# Node & TypeScript project – ignore list
+# ─────────────────────────────────────────────
+
+# ▶️ Package dependencies
+node_modules/
+
+# ▶️ Build outputs / compiled assets
+#   Adjust paths if you use a different build folder
+build/
+dist/
+.next/
+out/
+.tmp/
+tmp/
+
+# ▶️ Testing & coverage
+coverage/
+jest-html-reporters-*/
+cypress/videos/
+cypress/screenshots/
+
+# ▶️ Environment variables & local secrets
+.env
+.env.*.local
+.env.local
+
+# ▶️ Logs & debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ▶️ TypeScript incremental build info
+*.tsbuildinfo
+
+# ▶️ Editor & IDE settings
+.vscode/
+.idea/
+*.suo
+*.njsproj
+*.sln
+
+# ▶️ OS metadata files
+.DS_Store
+Thumbs.db
+
+# ▶️ Misc project folders (adjust as needed)
+mock-api/
+postman/
+
+# Keep this file!
+!.gitignore
